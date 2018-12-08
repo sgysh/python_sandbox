@@ -14,12 +14,12 @@ def mosaic(src, ratio):
 args = sys.argv
 
 if len(args) != 3:
-    sys.exit("Usage: python %s FILEPATH DURATION" % args[0])
+    sys.exit('Usage: python %s FILEPATH DURATION' % args[0])
 
 filepath = args[1]
 duration = int(args[2])
 if duration <= 0:
-    sys.exit("Error: DURATION <= 0")
+    sys.exit('Error: DURATION <= 0')
 
 # OpenCV: BGR
 # Pillow: RGB
