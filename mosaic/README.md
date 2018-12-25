@@ -5,11 +5,6 @@ by Yoshinori Sugino
 
 ---
 
-## License
-MIT
-
----
-
 ## Setup
 ```
 sudo apt install python-pip
